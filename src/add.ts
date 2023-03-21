@@ -1,4 +1,5 @@
-// ./node_modules/.bin/tsc --noImplicitAny ./src/add.js
+// ./node_modules/.bin/tsc ./src/add.js -> compiles without errors
+// ./node_modules/.bin/tsc --noImplicitAny ./src/add.js -> errors
 function add(a, b) {
   return a + b;
 }
